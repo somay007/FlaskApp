@@ -2,12 +2,9 @@ pipeline {
 agent any  
 
 environment {  
-    DOCKER_CREDENTIAL_ID = 'azure-service-principal'  
+    DOCKER_CREDENTIAL_ID = 'Docker Credentials'  
     DOCKER_IMAGE = 'somay1/flask-app:latest'  
     GIT_REPO_URL = 'https://github.com/somay007/FlaskApp.git'
-    DOCKER_USERNAME = 'somayverma786@gmail.com'
-    DOCKER_PASSWORD = 'Somay@005'
-    
 }  
 
 stages {  
