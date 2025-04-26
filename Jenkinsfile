@@ -3,7 +3,7 @@ agent any
 
 environment {  
     DOCKER_CREDENTIAL_ID = 'docker-credentials' 
-    DOCKER_IMAGE = 'somay1/flask-app:latest'  
+    DOCKER_IMAGE = 'somay1/flask-app-docker:latest'  
     GIT_REPO_URL = 'https://github.com/somay007/FlaskApp.git'
 }  
 
